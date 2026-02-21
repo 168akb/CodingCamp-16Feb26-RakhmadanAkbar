@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    flex: 1;
+}
+
+.form-group button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+.controls {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls .danger {
+    background: #ef4444;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0f172a;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #334155;
+}
+
+
+.empty {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+}
+
+
+
+.complete-btn {
+    background: #22c55e;
+    color: white;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+}
